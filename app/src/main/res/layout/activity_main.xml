@@ -388,3 +388,18 @@
         app:layout_constraintEnd_toStartOf="@+id/guidelinev4"
         app:layout_constraintStart_toStartOf="@+id/guidelinev4"
         app:layout_constraintTop_toBottomOf="@+id/guidelineh6" />
+
+    <TextView
+        android:id="@+id/pantallaCalculadora"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        style="@style/NumeroDePantalla"
+        android:layout_margin="8dp"
+        android:gravity="center|end"
+        android:text="@string/boton0"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineh6"
+        app:layout_constraintEnd_toStartOf="@+id/guidelinev5"
+        app:layout_constraintStart_toStartOf="@+id/guidelinev1"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineh7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
